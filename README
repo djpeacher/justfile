@@ -1,0 +1,10 @@
+# justfile
+
+```sh
+# assume you have just installed.
+cd ~
+git clone https://github.com/djpeacher/justfile.git
+just justfile/init
+# Start a new session.
+.just hello
+```
