@@ -1,11 +1,11 @@
 
 [private]
 default:
-  @just --justfile ~/justfile/justfile --choose
+  @just --justfile ~/justfile/justfile --list
 
 [private]
-list:
-  @just --justfile ~/justfile/justfile --list
+choose:
+  @just --justfile ~/justfile/justfile --choose
 
 [private]
 init:
