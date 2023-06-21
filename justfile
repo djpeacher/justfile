@@ -18,6 +18,10 @@ hello:
     val = input("Hello ____? ")
     print(f"Hello {val}!")
 
+# Edit this file
+edit:
+    code ~/justfile/
+
 # Find all .python-version files
 pyenv-find:
     @echo "🤖 Searching for .python-version files..."
