@@ -23,9 +23,9 @@ edit:
     code ~/justfile/
 
 # Find all .python-version files
-pyenv-find:
+pyenv-find dir="~/Developer ~/Desktop":
     @echo "🤖 Searching for .python-version files..."
-    @find ~/Developer ~/Desktop -type f -name ".python-version" -print -exec cat {} \;
+    @find {{ dir }} -type f -name ".python-version" -print -exec cat {} \;
 
 # List all pyenv virtualenvs
 pyenv-venvs:
