@@ -6,6 +6,7 @@ My user-level `justfile`! ([docs](https://just.systems/man/en/chapter_67.html))
 $ .just
 Available recipes:
     edit        # Edit this file
+    freeze      # Freeze pip to requirements.txt
     hello       # Hello World!
     pyenv-find  # Find all .python-version files
     pyenv-venvs # List all pyenv virtualenvs

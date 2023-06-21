@@ -32,3 +32,6 @@ pyenv-venvs:
     @echo "🤖 These are all your virtualenvs..."
     @pyenv virtualenvs | grep -v "envs" | sed -E 's/^(.*) \(.*\/([0-9]+\.[0-9]+\.[0-9]+)\)$/\1 \2/' 
 
+# Freeze pip to requirements.txt
+freeze:
+    pip freeze > requirements.txt
