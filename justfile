@@ -8,9 +8,9 @@ choose:
   @just --justfile ~/justfile/justfile --choose
 
 [private]
-init:
-    @echo "\nalias .just='just --justfile ~/justfile/justfile --working-directory .'" >> ~/.zprofile
-    @echo ".just alias added to .zprofile! Start a new session to use it."
+init alias=".just":
+    @echo "\nalias {{ alias }}='just --justfile ~/justfile/justfile --working-directory .'" >> ~/.zprofile
+    @echo "{{ alias }} alias added to .zprofile! Start a new session to use it."
 
 # Hello World!
 hello:

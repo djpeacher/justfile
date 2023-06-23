@@ -16,6 +16,6 @@ Available recipes:
 # Assumes you have `just` installed.
 cd ~
 git clone https://github.com/djpeacher/justfile.git
-just justfile/init
+just justfile/init [alias=".just"]
 .just hello # Start a new session.
 ```
