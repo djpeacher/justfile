@@ -10,6 +10,7 @@ Available recipes:
     hello            # Hello World!
     pyenv-find [dir] # Find all .python-version files
     pyenv-venvs      # List all pyenv virtualenvs
+    stash            # Stashes all files, including untracked
 ```
 
 ```sh

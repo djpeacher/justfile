@@ -35,3 +35,7 @@ pyenv-venvs:
 # Freeze pip to requirements.txt
 freeze:
     pip freeze > requirements.txt
+
+# Stashes all files, including untracked
+stash:
+    git stash --include-untracked
